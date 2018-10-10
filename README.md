@@ -28,6 +28,15 @@
 ## 實務問題
 1. 讀這段程式碼，試著說出 Ap Server 對 DB 一共發出了哪些 Request?
 2. UML如下，請試著用 Pseudo code 找出各別學生的所有考試中最後一次的成績
-3. 該如何儲存 user 的密碼？
-4. 在 ______ 的需求下，你會如何設計資料表？
-5. 如何用 jQuery 送出 request，取得回傳結果？
+```
+  Scores
+  - int id
+  - int student_id
+  - int score
+  - int subject_id
+  - datetime create_at
+```
+3. 承上，我們要怎麼找出「XX科目 (subject)」考三次以上及格的學生呢？
+4. 該如何儲存 user 的密碼？
+5. 在 ______ 的需求下，你會如何設計資料表？
+6. 如何用 jQuery 送出 request，取得回傳結果？
